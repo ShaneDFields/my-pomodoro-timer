@@ -12,11 +12,16 @@
   font-size: 17px;
 }
 
+h2,
+p {
+  color: white;
+}
+
 .message {
   margin-top: 3rem;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
   .input-group {
     align-items: center;
     display: flex;

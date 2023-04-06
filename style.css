@@ -1,33 +1,27 @@
-.bg {
-  animation: slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #fe0013 50%, #0092fe 50%);
-  bottom: 0;
-  left: -50%;
-  opacity: 0.5;
-  position: fixed;
-  right: -50%;
-  top: 0;
-  z-index: -1;
+body {
+  background-attachment: fixed;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-.bg2 {
+/* .bg2 {
   animation-direction: alternate-reverse;
   animation-duration: 4s;
 }
 
 .bg3 {
   animation-duration: 5s;
-}
+} */
 
 .content {
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.25em;
-  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
-  margin-top: 15rem;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25); */
+  margin-top: 11rem;
 }
 h1 {
   padding-top: 4rem;
   font-family: "Rubik", sans-serif;
+  color: black;
 }
 
 @keyframes slide {

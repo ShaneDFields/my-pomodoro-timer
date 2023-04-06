@@ -1,11 +1,29 @@
-.timer-controls {
-  margin-top: 4rem;
+.btn-secondary {
+  width: 50px;
+  height: 50px;
 }
 
 .timers {
-  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oi {
+  font-size: 17px;
 }
 
 .message {
-  margin-top: 5rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 850px) {
+  .input-group {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-group-append {
+    padding-top: 30px;
+  }
 }

@@ -1,38 +1,3 @@
-/* .btn-secondary {
-  width: 50px;
-  height: 50px;
-}
-
-.timers {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.oi {
-  font-size: 17px;
-}
-
-h2,
-p {
-  color: white;
-}
-
-.message {
-  margin-top: 3rem;
-}
-
-@media (max-width: 800px) {
-  .input-group {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-  .input-group-append {
-    padding-top: 30px;
-  }
-} */
-
 .right-set {
   float: right;
 }
@@ -67,12 +32,12 @@ p {
 @media (max-width: 800px) {
   .progress {
     width: 250px;
-    margin-left: 50px;
+    margin-left: 45px;
   }
 }
 
 @media (max-width: 800px) {
   .content {
-    margin-top: -1px;
+    margin-top: 15px;
   }
 }

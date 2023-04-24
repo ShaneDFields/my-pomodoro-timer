@@ -134,7 +134,7 @@ function Pomodoro() {
           </div>
         </div>
         <div className="col">
-          <div className="float-right">
+          <div className="right-set">
             <div className="input-group input-group-lg mb-2">
               <span className="input-group-text" data-testid="duration-break">
                 {/* TODO: Update this text to display the current break session duration */}
@@ -219,7 +219,7 @@ function Pomodoro() {
           <div className="row mb-2">
             <div className="col">
               {/* TODO: Update message below to include current session (Focusing or On Break) total duration */}
-              <h2 data-testid="session-title">
+              <h2 className="session-text" data-testid="session-title">
                 {session && session.label} for{" "}
                 {(
                   "0" +
@@ -230,7 +230,10 @@ function Pomodoro() {
                 :00 minutes
               </h2>
               {/* TODO: Update message below correctly format the time remaining in the current session */}
-              <p className="lead" data-testid="session-sub-title">
+              <p
+                className="lead session-text-sub"
+                data-testid="session-sub-title"
+              >
                 {session && fmtMSS(session.timeRemaining)} remaining
               </p>
             </div>

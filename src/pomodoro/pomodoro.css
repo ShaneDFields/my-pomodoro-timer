@@ -1,4 +1,4 @@
-.btn-secondary {
+/* .btn-secondary {
   width: 50px;
   height: 50px;
 }
@@ -30,5 +30,43 @@ p {
 
   .input-group-append {
     padding-top: 30px;
+  }
+} */
+
+.right-set {
+  float: right;
+}
+
+.session-text {
+  color: white;
+}
+
+.session-text-sub {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .right-set {
+    float: left;
+  }
+}
+
+@media (max-width: 800px) {
+  .timers {
+    padding-left: 35px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .session-text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .progress {
+    width: 250px;
+    margin-left: 50px;
   }
 }

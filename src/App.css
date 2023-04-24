@@ -3,10 +3,16 @@
   font-family: "Inter", sans-serif;
 }
 
-.App-header {
+/* .App-header {
   margin-top: 1.5rem;
-}
+} */
 
 .container {
   padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .heading {
+    font-size: 30px;
+  }
 }

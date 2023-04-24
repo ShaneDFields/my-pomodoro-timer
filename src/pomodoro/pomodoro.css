@@ -4,10 +4,16 @@
 
 .session-text {
   color: white;
+  text-shadow: 2px 2px #355f6d;
 }
 
 .session-text-sub {
   color: white;
+  text-shadow: 2px 2px #355f6d;
+}
+
+.controls {
+  padding: 20px;
 }
 
 @media (max-width: 800px) {
@@ -18,7 +24,7 @@
 
 @media (max-width: 800px) {
   .timers {
-    padding-left: 35px;
+    padding-left: 28px;
     padding-bottom: 20px;
   }
 }

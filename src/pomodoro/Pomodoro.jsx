@@ -172,7 +172,7 @@ function Pomodoro() {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row controls">
         <div className="col">
           <div
             className="btn-group btn-group-lg mb-2 timer-controls"

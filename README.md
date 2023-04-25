@@ -11,16 +11,16 @@
 <p>Tech used: HTML, CSS, Bootstrap, JavaScript, React
 
 <p>
-I needed an app to help me keep on track with my work, and I knew this was the ideal project.
-I created this application to further develop my state management skills while also ensuring correct coding practices. Because the functionality was the major emphasis of this project, I used simple Bootstrap styles. However, I believe that apps should still look great, so I made a few changes to make this app seem soothing while not being distracting, so you can utilize the timer and focus on your task. 
+I needed an app to help me stay on track with my work, and I knew this was the ideal project.
+I created this application to further develop my state management skills while also ensuring correct coding practices. Because the functionality was the major emphasis of this project, I used simple Bootstrap styles. However, because I believe that apps should still look great, I made a few changes to make this app seem soothing while not being too distracting. This way, you can utilize the timer and still be able to focus on your task. 
 </p>
 
 
 <h2>What It Does</h2>
 
-<p> The app allows users to establish focus and break times. The length of the focus duration can be adjusted by 5 minutes. Break durations, on the other hand, 
-can only be altered by one minute to ensure that you have more focus time than break time. You can also stop or pause your focus period. 
-When your focus period is finished, the app will begin the break period automatically. </p>
+<p> The app allows users to establish focus and break times. The length of the focus duration can be adjusted in increments of 5 minutes. Break durations, on the other hand, 
+can only be altered by one minute increments to ensure that you have more focus time than break time. You can also stop or pause your focus period. 
+When your focus period is finished, the app will automatically begin the break period. </p>
 
 <h2>Lessons Learned </h2>
 
